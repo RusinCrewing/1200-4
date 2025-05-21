@@ -31,6 +31,7 @@ body {
 }
 
 .date-from {
+    font-weight: bold;
     left: 68px;
     width: 86px;
 }
@@ -132,6 +133,7 @@ body {
 }
 
 .date-to {
+    font-weight: bold;
     left: 154px;
     width: 86px;
 }
