@@ -1,0 +1,660 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    width: 1123px;
+    height: 794px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    page-break-after: always;
+    position: relative;
+}
+
+.page img {
+    width: 1123px;
+    height: 794px;
+    object-fit: contain;
+    display: block;
+}
+
+.input-overlay {
+    position: absolute;
+    height: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+
+.date {
+    font-size: 20px;
+    letter-spacing: 2;
+}
+
+.date-from {
+    left: 68px;
+    width: 86px;
+}
+
+.date-from1 {
+    top: 195px;
+}
+
+.date-from2 {
+    top: 217px;
+}
+
+.date-from3 {
+    top: 239px;
+}
+
+.date-from4 {
+    top: 261px;
+}
+
+.date-from5 {
+    top: 283px;
+}
+
+.date-from6 {
+    top: 305px;
+}
+
+.date-from7 {
+    top: 327px;
+}
+
+.date-from8 {
+    top: 349px;
+}
+
+.date-from9 {
+    top: 371px;
+}
+
+.date-from10 {
+    top: 393px;
+}
+
+.date-from11 {
+    top: 415px;
+}
+
+.date-from12 {
+    top: 437px;
+}
+
+.date-from13 {
+    top: 459px;
+}
+
+.date-from14 {
+    top: 481px;
+}
+
+.date-from15 {
+    top: 503px;
+}
+
+.date-from16 {
+    top: 525px;
+}
+
+.date-from17 {
+    top: 547px;
+}
+
+.date-from18 {
+    top: 569px;
+}
+
+.date-from19 {
+    top: 591px;
+}
+
+.date-from20 {
+    top: 613px;
+}
+
+.date-from21 {
+    top: 635px;
+}
+
+.date-from22 {
+    top: 657px;
+}
+
+.date-from23 {
+    top: 679px;
+}
+
+.date-from24 {
+    top: 701px;
+}
+
+.date-to {
+    left: 154px;
+    width: 86px;
+}
+
+.date-to1 {
+    top: 195px;
+}
+
+.date-to2 {
+    top: 217px;
+}
+
+.date-to3 {
+    top: 239px;
+}
+
+.date-to4 {
+    top: 261px;
+}
+
+.date-to5 {
+    top: 283px;
+}
+
+.date-to6 {
+    top: 305px;
+}
+
+.date-to7 {
+    top: 327px;
+}
+
+.date-to8 {
+    top: 349px;
+}
+
+.date-to9 {
+    top: 371px;
+}
+
+.date-to10 {
+    top: 393px;
+}
+
+.date-to11 {
+    top: 415px;
+}
+
+.date-to12 {
+    top: 437px;
+}
+
+.date-to13 {
+    top: 459px;
+}
+
+.date-to14 {
+    top: 481px;
+}
+
+.date-to15 {
+    top: 503px;
+}
+
+.date-to16 {
+    top: 525px;
+}
+
+.date-to17 {
+    top: 547px;
+}
+
+.date-to18 {
+    top: 569px;
+}
+
+.date-to19 {
+    top: 591px;
+}
+
+.date-to20 {
+    top: 613px;
+}
+
+.date-to21 {
+    top: 635px;
+}
+
+.date-to22 {
+    top: 657px;
+}
+
+.date-to23 {
+    top: 679px;
+}
+
+.date-to24 {
+    top: 701px;
+}
+
+.cell {
+    width: 172px;
+}
+
+.title {
+    left: 240px;
+}
+
+.title1 {
+    top: 195px;
+}
+
+.title2 {
+    top: 217px;
+}
+
+.title3 {
+    top: 239px;
+}
+
+.title4 {
+    top: 261px;
+}
+
+.title5 {
+    top: 283px;
+}
+
+.title6 {
+    top: 305px;
+}
+
+.title7 {
+    top: 327px;
+}
+
+.title8 {
+    top: 349px;
+}
+
+.title9 {
+    top: 371px;
+}
+
+.title10 {
+    top: 393px;
+}
+
+.title11 {
+    top: 415px;
+}
+
+.title12 {
+    top: 437px;
+}
+
+.title13 {
+    top: 459px;
+}
+
+.title14 {
+    top: 481px;
+}
+
+.title15 {
+    top: 503px;
+}
+
+.title16 {
+    top: 525px;
+}
+
+.title17 {
+    top: 547px;
+}
+
+.title18 {
+    top: 569px;
+}
+
+.title19 {
+    top: 591px;
+}
+
+.title20 {
+    top: 613px;
+}
+
+.title21 {
+    top: 635px;
+}
+
+.title22 {
+    top: 657px;
+}
+
+.title23 {
+    top: 679px;
+}
+
+.title24 {
+    top: 701px;
+}
+
+.employer {
+    left: 412px;
+}
+
+.employer1 {
+    top: 195px;
+}
+
+.employer2 {
+    top: 217px;
+}
+
+.employer3 {
+    top: 239px;
+}
+
+.employer4 {
+    top: 261px;
+}
+
+.employer5 {
+    top: 283px;
+}
+
+.employer6 {
+    top: 305px;
+}
+
+.employer7 {
+    top: 327px;
+}
+
+.employer8 {
+    top: 349px;
+}
+
+.employer9 {
+    top: 371px;
+}
+
+.employer10 {
+    top: 393px;
+}
+
+.employer11 {
+    top: 415px;
+}
+
+.employer12 {
+    top: 437px;
+}
+
+.employer13 {
+    top: 459px;
+}
+
+.employer14 {
+    top: 481px;
+}
+
+.employer15 {
+    top: 503px;
+}
+
+.employer16 {
+    top: 525px;
+}
+
+.employer17 {
+    top: 547px;
+}
+
+.employer18 {
+    top: 569px;
+}
+
+.employer19 {
+    top: 591px;
+}
+
+.employer20 {
+    top: 613px;
+}
+
+.employer21 {
+    top: 635px;
+}
+
+.employer22 {
+    top: 657px;
+}
+
+.employer23 {
+    top: 679px;
+}
+
+.employer24 {
+    top: 701px;
+}
+
+.location {
+    left: 584px;
+}
+
+.location1 {
+    top: 195px;
+}
+
+.location2 {
+    top: 217px;
+}
+
+.location3 {
+    top: 239px;
+}
+
+.location4 {
+    top: 261px;
+}
+
+.location5 {
+    top: 283px;
+}
+
+.location6 {
+    top: 305px;
+}
+
+.location7 {
+    top: 327px;
+}
+
+.location8 {
+    top: 349px;
+}
+
+.location9 {
+    top: 371px;
+}
+
+.location10 {
+    top: 393px;
+}
+
+.location11 {
+    top: 415px;
+}
+
+.location12 {
+    top: 437px;
+}
+
+.location13 {
+    top: 459px;
+}
+
+.location14 {
+    top: 481px;
+}
+
+.location15 {
+    top: 503px;
+}
+
+.location16 {
+    top: 525px;
+}
+
+.location17 {
+    top: 547px;
+}
+
+.location18 {
+    top: 569px;
+}
+
+.location19 {
+    top: 591px;
+}
+
+.location20 {
+    top: 613px;
+}
+
+.location21 {
+    top: 635px;
+}
+
+.location22 {
+    top: 657px;
+}
+
+.location23 {
+    top: 679px;
+}
+
+.location24 {
+    top: 701px;
+}
+
+.duties {
+    left: 756px;
+    width: 328px;
+}
+
+.duties1 {
+    top: 195px;
+}
+
+.duties2 {
+    top: 217px;
+}
+
+.duties3 {
+    top: 239px;
+}
+
+.duties4 {
+    top: 261px;
+}
+
+.duties5 {
+    top: 283px;
+}
+
+.duties6 {
+    top: 305px;
+}
+
+.duties7 {
+    top: 327px;
+}
+
+.duties8 {
+    top: 349px;
+}
+
+.duties9 {
+    top: 371px;
+}
+
+.duties10 {
+    top: 393px;
+}
+
+.duties11 {
+    top: 415px;
+}
+
+.duties12 {
+    top: 437px;
+}
+
+.duties13 {
+    top: 459px;
+}
+
+.duties14 {
+    top: 481px;
+}
+
+.duties15 {
+    top: 503px;
+}
+
+.duties16 {
+    top: 525px;
+}
+
+.duties17 {
+    top: 547px;
+}
+
+.duties18 {
+    top: 569px;
+}
+
+.duties19 {
+    top: 591px;
+}
+
+.duties20 {
+    top: 613px;
+}
+
+.duties21 {
+    top: 635px;
+}
+
+.duties22 {
+    top: 657px;
+}
+
+.duties23 {
+    top: 679px;
+}
+
+.duties24 {
+    top: 701px;
+}
+
+@media print {
+    body {
+        background: white;
+    }
+
+    .page {
+        box-shadow: none;
+        margin: 0;
+        page-break-after: always;
+    }
+
+    .input-overlay {
+        border: none;
+    }
+}
