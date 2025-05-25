@@ -341,7 +341,13 @@ body {
 }
 
 .employer {
-    font-size: 9px;
+    resize: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    line-height: 1;
+    font-size: 8px;
     left: 412px;
 }
 
